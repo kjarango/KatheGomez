@@ -1,0 +1,247 @@
+@font-face {
+    font-family: Sublima-ExtraBold ;
+    src: url(./fuente/Sublima-ExtraBold.otf);
+}
+@font-face {
+    font-family: Sublima-Light;
+    src: url(./fuente/Sublima-Light.otf);
+}
+
+
+.uno{
+    width: 100%;
+    height:100vh ;
+    background-image:url(img/Brillante-suave.png) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.uno-uno{
+    width: 50%;
+    float: left;
+    margin: 2px 1em 0 auto;
+    padding: 100px 50px 20px;
+    margin-top: 10%;
+    
+}
+.logo{
+    width: 100%;
+}
+
+.uno-dos{
+    width: 50%;
+    margin: 2px 1em 0 auto;
+    padding: 100px 50px 20px;
+
+}
+
+.dos{
+    width: 100%;
+    height:94vh ;
+    background-color: #3E7D99 ;
+}
+.titulo{
+    color: #5F4D41;
+    font-family: Sublima-ExtraBold;
+    
+}
+
+.color-letra{
+    color: #5F4D41;
+    font-family: Sublima-Light;
+}
+
+.boton-uno{
+    color: white;
+    font-weight: 600;
+    background-color:#3E7D99 ;
+    border-radius: 15px;
+    padding: 5px;
+    width:  15rem;
+    margin-top: 5%;
+}
+
+.boton-dos{
+    color: #3E7D99 ;
+    font-weight: 600;
+    background-color:white;
+    border-radius: 15px;
+    padding: 5px;
+    width:  15rem;
+    margin-top: 5%;
+}
+.dos-uno{
+    float: left;
+    width: 50%;
+}
+.dos-dos{
+    padding: 100px 50px 20px;
+    
+}
+
+.tres{
+    background-color: #FDF7F0;
+    width: 100%;
+    height:auto ;
+}
+.titulo-tres{
+    color: #3E7D99;
+}
+
+.img-tres{
+    border-radius: 50%;
+    width: 250px;
+    height:250px;
+}
+
+.tres-parrafos{
+    padding: 10px 60px 20px;
+    height:300px;
+}
+
+.tres-tit{
+    height: 100px;
+    padding: 10% 80px;
+}
+
+.cuatro{
+    background-image:url(img/Brillante-suave.png) ;
+    height: 50vh;
+}
+
+.cinco{
+    width: 100%;
+    height:60vh ;
+    background-color: #3E7D99 ;
+}
+.cinco-uno{
+    width: 50%;
+    padding: 80px 80px 20px;
+    float: left;
+    font-size: 20px;
+}
+.cinco-dos{
+    width: 50%;
+    float: left;
+    padding: 80px 60px 20px;
+    
+}
+.ico{
+    padding-right: 80px;
+    float: right;
+}
+.text{
+    float: right;
+    text-align: right !important;
+}
+.iconos{
+    background-color: white;
+    width:60px;
+    height:60px;
+    font-size: 40px;
+    border-radius: 50%;
+    color: #3E7D99;
+    display:flex;
+}
+.t-cuatro{
+    margin-top: 10% !important;
+    padding: 10px 60px 20px !important;
+}
+
+@media (max-width: 700px){
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    .uno{
+        width: 100%;
+        height:auto ;
+        background-color: #F2E0D0;
+        background-image:none ;
+    }
+    .uno-uno{
+        order: 2;
+        width: 100%;
+        margin: 2px 1em 0 auto;
+        padding: 100px 50px 20px;
+        margin-top: 10%;
+        
+    }
+    .uno-dos{
+        order: 1;
+        width: 100%;
+        margin: 2px 1em 0 auto;
+        padding: 100px 50px 20px;
+    
+    }
+    .dos{
+        width: 100%;
+        height:auto;
+        background-color: #3E7D99 ;
+    }
+    .dos-dos{
+        font-size: 15px;
+    }
+    .txt{
+        font-size: 15px ;
+        text-align: center;
+    }
+    .dos-uno{
+        margin-left: auto ;
+        margin-right: auto ;
+        width: auto;
+    }
+    .img-dos{
+        width: 300px;
+        height:300px;
+        margin-left: auto ;
+        margin-right: auto ;
+        padding: 50px;
+        border-radius: 50%;
+    }
+    .titulo{
+        color: #5F4D41;
+        font-family: Sublima-ExtraBold;
+        font-size: 20px ;
+        
+    }
+    
+    .color-letra{
+        color: #5F4D41;
+        font-family: Sublima-Light;
+        font-size: 15px ;
+    }
+    .tres-parrafos{
+        padding: 10px 60px 20px;
+        height:auto;
+    }
+    .titulo-tres{
+        color: #3E7D99;
+        font-size: 20px ;
+    }
+    .img-tres{
+        border-radius: 50%;
+        width: 150px;
+        height:150px;
+    }
+    .t-cuatro{
+        padding: 10px 60px 20px ;
+        overflow-wrap: break-word;
+        
+    }
+    .cinco-uno{
+        width: 100%;
+        padding: 80px 80px 20px;
+        font-size: 20px;
+    }
+    .cinco-dos{
+        width: 100%;
+        padding: 80px 60px 20px;
+        
+    }
+    .cinco{
+        width: 100%;
+        height:100vh ;
+        background-color: #3E7D99 ;
+    }
+}
